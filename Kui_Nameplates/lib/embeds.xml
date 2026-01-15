@@ -3,12 +3,12 @@
     <Script file="Kui/Kui.lua"/>
     <Include file="CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
 
-    <!--@non-retail@
+    <!--@non-retail@-->
     <Script file="LibClassicCasterino\LibClassicCasterino.lua"/>
     <Include file="LibClassicDurations\LibClassicDurations.xml"/>
-    @end-non-retail@-->
-    <!--@debug@-->
+    <!--@end-non-retail@-->
+    <!--@debug@
     <Script file="LibClassicCasterino\LibClassicCasterino.lua"/>
     <Include file="LibClassicDurations\LibClassicDurations.xml"/>
-    <!--@end-debug@-->
+    @end-debug@-->
 </Ui>

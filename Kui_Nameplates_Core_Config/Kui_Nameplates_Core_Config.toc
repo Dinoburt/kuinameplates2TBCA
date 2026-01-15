@@ -1,9 +1,4 @@
-## Interface: 100207, 110000, 110002
-## Interface-Classic: 11501
-## Interface-BCC: 20501
-## Interface-Wrath: 30402
-## Interface-Cata: 40400
-## Interface-Mists: 50500
+## Interface: 11501
 
 ## Author: Kesava
 ## Title: Kui |cff9966ffNameplates:|r |cffffffffCore Config|r

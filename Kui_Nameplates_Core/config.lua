@@ -965,11 +965,11 @@ function core:ConfigChanged(_,k,v)
 end
 function core:InitialiseConfig()
     --luacheck:globals KuiNameplatesCoreSaved KuiNameplatesCoreConfig
-    --@alpha@
+    --[=[@alpha@
     if not KuiNameplatesCoreSaved or not KuiNameplatesCoreSaved.SHUT_UP then
         addon:ui_print('Alpha version - Report issues to github.com/kesava-wow/kuinameplates2 and include the output of: /knp dump -- Thanks!')
     end
-    --@end-alpha@
+    --@end-alpha@]=]
 
     if KuiNameplatesCoreSaved then
         -- XXX TEMP 2.27
