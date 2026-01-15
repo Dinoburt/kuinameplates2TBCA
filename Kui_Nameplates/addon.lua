@@ -10,7 +10,7 @@ local addon = KuiNameplates
 local kui = LibStub('Kui-1.0')
 addon.MAJOR,addon.MINOR = 2,5
 
---@debug@
+--[==[@debug@
 addon.debug = true
 --addon.debug_config = true
 --addon.debug_units = true
@@ -18,7 +18,7 @@ addon.debug = true
 --addon.debug_events = true
 --addon.debug_callbacks = true
 --addon.draw_frames = true
---@end-debug@
+--@end-debug@]==]
 addon.DEBUG_IGNORE = {
     ['m:Create'] = true,
     ['m:Show'] = true,
@@ -101,10 +101,6 @@ function addon:NAME_PLATE_UNIT_ADDED(unit)
 
     if self.USE_BLIZZARD_PERSONAL and UnitIsUnit(unit,'player') then
         -- don't process anything for the personal nameplate if disabled
-        return
-    end
-
-    if UnitNameplateShowsWidgetsOnly and UnitNameplateShowsWidgetsOnly(unit) then
         return
     end
 
